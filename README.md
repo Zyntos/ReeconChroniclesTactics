@@ -31,4 +31,4 @@ helfen können, weiteres klären wir dann. Allerdings würde ich lieber PHP als 
 um die Entwürfe für Fertigkeiten und Figuren kümmern, da ich da am meisten Ahnung von meiner Welt habe^^. 
 Ansonsten würde ich aber auch im Bereich des Game Designs meine Spezialisierung finden, natürlich zusätzlich zum Programmieren.
 
-Ich hoffe, ich kann jemanden mit dieser idee finden, wäre sehr geil :P
+Ich hoffe, ich kann jemanden für diese Idee finden, wäre sehr geil :P
