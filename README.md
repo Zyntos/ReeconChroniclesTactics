@@ -5,7 +5,7 @@ aber klein anfangen kann.
 Aus diesem Grund denke ich, das dieses auch in unserem Projekt realisierbar ist (zumindest als erste Version und dem Hinblick, das
 in weiteren Projekten oder in der Freizeit weiterzuentwickeln.
 
-Die Grundidee
+Die Grundidee:
 Es handelt sich um eine Mischung aus einem Kartenspiel und einem einfachen Strategiespiel mit wenigen Einheiten auf einem Hexfeld.
 Dabei steuert jeder Spieler (1vs1) einen Helden, der sich auf diesem Hexfeld bewegen kann. Jeder Spieler erhält außerdem ein 
 Kartendeck, in dem sich Karten mit Fähigkeiten befinden (dabei kann man ganz einfach anfangen, also "Füge 3 Schaden zu" oder 
