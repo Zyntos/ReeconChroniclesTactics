@@ -14,10 +14,10 @@ Figur ein Feld weiter" oder "Lege diese Karte an einen Helden an, wenn ein Held 
 X Schaden zu". Desweiteren könnten Einheiten oder Geräte durch Karten hervorgerufen werden, die steuerbar sind (je nach Umfang)
 
 Die Regeln
-Einfache Regeln wären: Ziehe zu beginn des spieles 3 Karten, jede Runde eine Karte
+Einfache Regeln wären: Ziehe zu beginn des spieles 3 Karten, jede Runde eine Karte.
 Rundenbasis, 
-Bewegungsphase : Bewege deinen Helden um bis zu 3 Felder, nicht diagonal
-Aktionsphase: Spiele eine karte aus
+Bewegungsphase : Bewege deinen Helden um bis zu 3 Felder, nicht diagonal.
+Aktionsphase: Spiele eine karte aus.
 Ein Manasystem müsste noch ausgearbeitet werden, Ideen wären entweder ein "hearthstone" prinzip, also erste Runde 1 Mana, 2. Runde
 2 Mana etc. oder ein beliebiges anderes System.
 
