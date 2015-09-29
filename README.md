@@ -2,8 +2,8 @@
 Hallo Leutens!
 Ich habe schon seit Längerem eine Idee zu einem kleinen Spiel, welches zwar in jeder Hinsicht erweiterbar ist,
 aber klein anfangen kann.
-Aus diesem Grund denke ich, das dieses auch in unserem Projekt realisierbar ist (zumindest als erste Version und dem Hinblick, das
-in weiteren Projekten oder in der Freizeit weiterzuentwickeln.
+Aus diesem Grund denke ich, dass dieses auch in unserem Projekt realisierbar ist (zumindest als erste Version und dem Hinblick, das
+in weiteren Projekten oder in der Freizeit weiterzuentwickeln.)
 
 Die Grundidee:
 Es handelt sich um eine Mischung aus einem Kartenspiel und einem einfachen Strategiespiel mit wenigen Einheiten auf einem Hexfeld.
@@ -13,7 +13,7 @@ Kartendeck, in dem sich Karten mit Fähigkeiten befinden (dabei kann man ganz ei
 Figur ein Feld weiter" oder "Lege diese Karte an einen Helden an, wenn ein Held drei dieser Karten angelegt hat, füge ihm
 X Schaden zu". Desweiteren könnten Einheiten oder Geräte durch Karten hervorgerufen werden, die steuerbar sind (je nach Umfang)
 
-Die Regeln
+Die Regeln:
 Einfache Regeln wären: Ziehe zu beginn des spieles 3 Karten, jede Runde eine Karte.
 Rundenbasis, 
 Bewegungsphase : Bewege deinen Helden um bis zu 3 Felder, nicht diagonal.
@@ -21,14 +21,14 @@ Aktionsphase: Spiele eine karte aus.
 Ein Manasystem müsste noch ausgearbeitet werden, Ideen wären entweder ein "hearthstone" prinzip, also erste Runde 1 Mana, 2. Runde
 2 Mana etc. oder ein beliebiges anderes System.
 
-Die Gestaltung
+Die Gestaltung:
 Da ich derzeit an einem Buch arbeite, welches in einer Science Fiction / Fantasy Welt spielt, wäre ich nicht abgeneigt, das Spiel
 in dieser Welt spielbar zu machen. Natürlich ist das kein muss, und alles ist möglich, da bin ich sehr frei :)
 
-Fähigkeiten
+Fähigkeiten:
 Ich denke, ich werde relativ schnell in alle Sprachen, die wir hier lernen, hereinkommen und werde auch in jeder der Sprachen 
-helfen können, weiteres klären wir dann. Sollten wir uns für meine Storyidee entscheiden, werde ich mich selbstverständlich
-um die Entwürfe für Fertigkeiten und Figuren kümmern, da ich da am meisten ahnung von meiner Welt habe. 
-Ansonsten würde ich aber auch im Bereich des Game Designs meine Spezialisierung finden, natürlich zusätzlich zum programmieren.
+helfen können, weiteres klären wir dann. Allerdings würde ich lieber PHP als javascript benutzen, da ich vorher noch nicht mit Javascript gearbeitet habe, und mir die Einarbeitung zu große Ablenkung zum eigentlichen Studium bereiten würde. Sollten wir uns für meine Storyidee entscheiden, werde ich mich selbstverständlich
+um die Entwürfe für Fertigkeiten und Figuren kümmern, da ich da am meisten Ahnung von meiner Welt habe^^. 
+Ansonsten würde ich aber auch im Bereich des Game Designs meine Spezialisierung finden, natürlich zusätzlich zum Programmieren.
 
 Ich hoffe, ich kann jemanden mit dieser idee finden, wäre sehr geil :P
