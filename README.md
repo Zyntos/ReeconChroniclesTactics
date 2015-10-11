@@ -32,3 +32,4 @@ um die Entwürfe für Fertigkeiten und Figuren kümmern, da ich da am meisten Ah
 Ansonsten würde ich aber auch im Bereich des Game Designs meine Spezialisierung finden, natürlich zusätzlich zum Programmieren.
 
 Ich hoffe, ich kann jemanden für diese Idee finden, wäre sehr geil :P
+EDIT: Gruppe gefunden!
