@@ -1,0 +1,22 @@
+-Vorbereitung des Spieles: 
+                           3 Karten ziehen (Random Einträge aus MySQL Datenbank auswählen, Bild auslesen und auf Handfläche abbilden)
+                           Lebenspunkte der Spieler auf 20 setzen.
+                           
+- Rundenstart:   Manavorrat um eins erhöhen. (Variable um eins hochzählen) (Bis max. 10)
+                 Karte ziehen
+                 
+-Bewegungsphase: Bilder in der Tabelle (Spielbrett) austauschen, um den Charakter zu bewegen.
+                 Nur auswählbare Felder klickbar machen. (3 Felder weit bewegen)
+                 
+- Aktionsphase:  Karten markieren, die spielbar sind (Kosten mit Manavorrat vergleichen)
+                 Spielbare Karten auswählbar machen. - Danach ja/nein Abfrage
+                 Ziel auf Spielbrett wählen, dabei abfragen, ob richtiges Ziel gewählt wird (Spielfigur, Feld)
+                 Schaden der Karte von Lebenspunkten des Zieles abziehen. (Variablen)
+                 Effekt der Karte wirken (Externes Effektdokument)/ Wenn möglich, effekte in SQL Datenbank speichern
+                 Karte auf Ablagestapel legen
+                 
+- Aufräumphase:  Abfragen, ob sich mehr als 5 Karten auf der Handfläche befinden, wenn ja, abwerfen, bis nur noch 5 Karten vorhanden
+                 Runde beenden und anderen Spieler spielen Lassen (Boolean)
+                 
+                 
+                 
