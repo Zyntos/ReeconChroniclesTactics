@@ -1,0 +1,6 @@
+Im HTML Programmier-Bereich befasse ich mich mit der Spieloberfläche:
+-Auswahlmenü zu Beginn des Spiels
+-Es wird das Spielfeld erstellt (Tabelle)
+-Die Handkarten (Form der Karten - Inhalt wird über MySQL Datenbank abgerufen)
+-Form der Spielerdarstellung (Spielerprofil, Lebens-und Manabalken)
+-
