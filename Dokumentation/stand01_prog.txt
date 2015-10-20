@@ -20,5 +20,7 @@
 - Aufräumphase:  Abfragen, ob sich mehr als 5 Karten auf der Handfläche befinden, wenn ja, abwerfen, bis nur noch 5 Karten vorhanden
                  Runde beenden und anderen Spieler spielen Lassen (Boolean)
                  
+                 Jederzeit abfragen: Fallen die Lebenspunkte eines Spielers auf 0, verliert dieser das Spiel!
+                 
                  
                  
