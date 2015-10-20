@@ -1,9 +1,11 @@
 -Vorbereitung des Spieles: 
-                           3 Karten ziehen (Random Einträge aus MySQL Datenbank auswählen, Bild auslesen und auf Handfläche abbilden)
+                           Kartennummern aus MySQL Datenbank nehmen und in 2 Arrays speichern (Als Decks)
+                           3 Karten ziehen (Random Einträge aus array auswählen, aus Array löschen, Bild auslesen und auf       
+                           Handfläche abbilden)
                            Lebenspunkte der Spieler auf 20 setzen.
                            
 - Rundenstart:   Manavorrat um eins erhöhen. (Variable um eins hochzählen) (Bis max. 10)
-                 Karte ziehen
+                 Karte ziehen (Random eintrag aus Array auswählen, aus Array löschen, Bild auslesen und auf Handfläche abbilden)
                  
 -Bewegungsphase: Bilder in der Tabelle (Spielbrett) austauschen, um den Charakter zu bewegen.
                  Nur auswählbare Felder klickbar machen. (3 Felder weit bewegen)
