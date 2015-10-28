@@ -1,0 +1,58 @@
+<!doctype html>
+	<html lang="de">
+	<head>
+		<meta charset="UTF-8">
+		<title>RCT-PRG</title>
+	</head>
+	<!-- Grundgerüst für HTML 5 -->
+	
+	<body topmargin="10%" leftmargin="35%">
+	
+	<!-- Spielfeld -->
+		<table border="1">
+		  <tr>
+			<td> <img src="weiss2.jpg" alt="Weisseflaeche">   </td>
+			<td> <img src="weiss2.jpg" alt="Weisseflaeche">   </td>
+			<td> <img src="weiss2.jpg" alt="Weisseflaeche">   </td>
+			<td> <img src="weiss2.jpg" alt="Weisseflaeche">   </td>
+			<td> <img src="weiss2.jpg" alt="Weisseflaeche">   </td>
+		  </tr>
+		  <tr>
+			<td> <img src="weiss2.jpg" alt="Weisseflaeche">   </td>
+			<td> <img src="weiss2.jpg" alt="Weisseflaeche">   </td>
+			<td> <img src="weiss2.jpg" alt="Weisseflaeche">   </td>
+			<td> <img src="weiss2.jpg" alt="Weisseflaeche">   </td>
+			<td> <img src="weiss2.jpg" alt="Weisseflaeche">   </td>
+		  </tr>
+		  <tr>
+			<td> <img src="weiss2.jpg" alt="Weisseflaeche">   </td>
+			<td> <img src="weiss2.jpg" alt="Weisseflaeche">   </td>
+			<td> <img src="weiss2.jpg" alt="Weisseflaeche">   </td>
+			<td> <img src="weiss2.jpg" alt="Weisseflaeche">   </td>
+			<td> <img src="weiss2.jpg" alt="Weisseflaeche">   </td>
+		  </tr>
+		  <tr>
+			<td> <img src="weiss2.jpg" alt="Weisseflaeche">   </td>
+			<td> <img src="weiss2.jpg" alt="Weisseflaeche">   </td>
+			<td> <img src="weiss2.jpg" alt="Weisseflaeche">   </td>
+			<td> <img src="weiss2.jpg" alt="Weisseflaeche">   </td>
+			<td> <img src="weiss2.jpg" alt="Weisseflaeche">   </td>
+		  </tr>
+		  <tr>
+			<td> <img src="weiss2.jpg" alt="Weisseflaeche">   </td>
+			<td> <img src="weiss2.jpg" alt="Weisseflaeche">   </td>
+			<td> <img src="weiss2.jpg" alt="Weisseflaeche">   </td>
+			<td> <img src="weiss2.jpg" alt="Weisseflaeche">   </td>
+			<td> <img src="weiss2.jpg" alt="Weisseflaeche">   </td>
+		  </tr>
+		</table>
+		
+		<div>
+			<canvas id="background_canvas" style="background: red; position: absolute; top: 80%; left: 0%; width:125px; height: 125px; border-radius: 100px"></canvas>
+		</div>
+		<div>
+			<canvas id="background_canvas" style="background: green; position: absolute; top: 0px; left: 1775px; width:125px; height: 125px; border-radius: 100px"></canvas>
+		</div>
+		
+	</body>
+</html>
