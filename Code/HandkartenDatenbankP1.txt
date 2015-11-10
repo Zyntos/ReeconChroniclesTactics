@@ -1,0 +1,14 @@
+HandkartenID = 1
+Handkarte1 = bestimmt via JavaSkript
+
+HandkartenID = 2
+Handkarte2 = bestimmt via JavaSkript
+
+HandkartenID = 3
+Handkarte3 = bestimmt via JavaSkript
+
+HandkartenID = 4
+Handkarte4 = bestimmt via JavaSkript
+
+HandkartenID = 5
+Handkarte5 = bestimmt via JavaSkript

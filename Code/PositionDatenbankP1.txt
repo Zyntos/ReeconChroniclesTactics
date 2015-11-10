@@ -1,0 +1,2 @@
+Position X = bestimmt via JavaSkript
+Position Y = bestimmt via JavaSkript
