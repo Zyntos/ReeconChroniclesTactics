@@ -1,0 +1,11 @@
+SpielerID = 1 bzw 2
+
+SpielerID = 1
+Leben = 20 (weiter bestimmt durch JavaSkript)
+Eingefrohren = false (weiter bestimmt durch JavaSkript)
+Handkarten = 5 (weiter bestimmt durch JavaSkript)
+
+SpielerID = 2
+Leben = 20 (weiter bestimmt durch JavaSkript)
+Eingefrohren = false (weiter bestimmt durch JavaSkript)
+Handkarten = 5 (weiter bestimmt durch JavaSkript)
