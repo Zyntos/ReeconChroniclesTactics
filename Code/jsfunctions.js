@@ -6,6 +6,7 @@ var movePhase1 = 0;
 var field = document.getElementsByClassName("Feld");
 var playersFound = 0;
 var highlighted = false;
+var clicked_id = " ";
 
 var i=0;
 var f=0;
@@ -15,7 +16,7 @@ var f=0;
 
 function movePhase() {
 	movePhase1 = 1;
-	window.alert(movePhase1);
+	
 	highlight();
   
 }
@@ -93,9 +94,9 @@ function findPlayer() {
 				
 				
 			if (field[i].src=="file:///C:/Users/Darren/Documents/reec/Code/red.jpg") {
-				window.alert(field[i].src);
+				
 				player1 = field[i].id;
-				window.alert(player1);
+				
 				
 				
 			}}
@@ -112,12 +113,22 @@ function findPlayer() {
 	}	}
 
 function move(clicked_id) {
-	window.alert(clicked_id);
+	
 	if (player == 1) {
 		if (highlighted==true) {
-			window.alert("clicked");
-			if (document.getElementbyId(clicked_id).src=="file:///C:/Users/Darren/Documents/reec/Code/highlighted.jpg") {
-				document.getElementbyId(clicked_id).src=red.jpg;
+			
+			
+			if (document.getElementById(clicked_id).src=="file:///C:/Users/Darren/Documents/reec/Code/highlighted.jpg") {
+				document.getElementById(clicked_id).src="red.jpg";
+				document.getElementById(player1).src="weiss2.jpg";
+				for (g=0; g<field.length; g++) {
+					if (field[g].src=="file:///C:/Users/Darren/Documents/reec/Code/highlighted.jpg") {
+						field[g].src = "weiss2.jpg";
+						
+					}
+				player1 = clicked_id;	
+					
+				}
 			
 			}
 		
