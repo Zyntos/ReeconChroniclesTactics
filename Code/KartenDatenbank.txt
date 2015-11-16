@@ -1,4 +1,4 @@
-Richtung: linear =  Vertikal und Horizotal
+﻿Richtung: linear =  Vertikal und Horizotal
 Richtund: diagonal =  Diagonal
 Richtung: radial =  alles im Kreis dh. Rund um den Char herum
 Richtung: - =  else
@@ -19,7 +19,7 @@ Kartenname: Feuerball
 Effekt: Füge einem Gegner 3 Schaden zu.
 Range: 3
 Richtung:  diagonal
-Bild: /Feuerball.jpg
+Bild: /Karte01.png
 Ziel: 2
 
 ID: 2
@@ -28,7 +28,7 @@ Kartenname: Geschenk des Himmels
 Effekt: Heile deinen Helden um 3 Lebenspunkte.
 Range: -
 Richtung: -
-Bild: /Geschenk_des_Himmels.jpg
+Bild: /Karte02.png
 Ziel:1
 
 ID: 3
@@ -37,16 +37,16 @@ Kartenname: Eisball
 Effekt: Der Gegner überspringt seine nächste Bewegungsphase.
 Range: 6
 Richtung: radial
-Bild: /Eisball.jpg
+Bild: /Karte04.png
 Ziel: 2
     
 ID: 4
 Manakosten: 3
 Kartenname: Zauberlähmung
-Effekt: Der Gegner kann in der nächsten Runde keine Karten benutzen
+Effekt: Der Gegner kann in der nächsten Runde keine Karten benutzen.
 Range: 2
 Richtung: linear
-Bild: /Zauberlähmung.jpg
+Bild: /Karte04.png
 Ziel: 2
 
 ID: 5
@@ -55,7 +55,7 @@ Kartenname: Donnerschuss
 Range: 2
 Richtung: linear
 Effekt: Der Gegner nimmt 2 Schaden und wird um 2 Einheiten zurückgestoßen.
-Bild: /Donnerschuss.jpg
+Bild: /Karte05.png
 Ziel: 2
 
 ID: 6
@@ -64,7 +64,7 @@ Kartenname: Tobendes Inferno
 Range: 4
 Richtung: radial
 Effekt:  Du erhältst 3 Schaden, danach erhält der Gegner 5 Schaden.
-Bild: /Tobendes_Inferno.jpg
+Bild: /Karte06.png
 Ziel: 2
 
 ID: 7
@@ -73,7 +73,7 @@ Kartenname: Segnung
 Range: -
 Richtung: -
 Effekt: Du heilst dich um 2 Leben und erhältst einen 3-Lebenspunkte-Schild bis zu deinem nächsten Zug.
-Bild: /Segnung.jpg
+Bild: /Karte07.png
 Ziel: 1
 
 ID: 8
@@ -82,7 +82,7 @@ Kartenname: Topf der Gier
 Range: -
 Richtung: -
 Effekt: Ziehe 2 Karten.
-Bild: /Topf_der_Gier.jpg
+Bild: /Karte08.png
 Ziel: 3
 
 ID: 9
@@ -91,7 +91,7 @@ Kartenname: Wiederholen
 Range: -
 Richtung: -
 Effekt: Beide Spieler wählen 3 Karten in ihrem Friedhof mischen sie in ihr Deck und ziehen 1 neue.
-Bild: /Wiederholen.jpg
+Bild: /Karte09.png
 Ziel: 5
 
 ID: 10
@@ -100,7 +100,7 @@ Kartenname: Zauberreproduktion
 Range: -
 Richtung: -
 Effekt: Nimm bis zu 2 Zauber mit maximal 4 Manakosten von deiner Ablage zurück auf die Hand
-Bild: /Zauberreproduktion.jpg
+Bild: /Karte10.png
 Ziel: 4
 
 ID: 11
@@ -109,7 +109,7 @@ Kartenname: Schneller Einfall
 Range: -
 Richtung: -
 Effekt: Du darfst 1 Zauber von deinem Deck auf die Hand nehmen.
-Bild: /Schneller_Einfall.jpg
+Bild: /Karte11.png
 Ziel: 3
 
 ID: 12
@@ -118,7 +118,7 @@ Kartenname: Hammerschlag
 Range: 2
 Richtung: linear
 Effekt: Wirf einen Würfel. Füge dem Gegner 4 plus dem Würfelergebnis an Schaden zu
-Bild: /Hammerschlag.jpg
+Bild: /Karte12.png
 Ziel: 2
 
 ID: 13
@@ -127,7 +127,7 @@ Kartenname: Eispfeil
 Range: 4
 Richtung: linear
 Effekt: Der Gegner erhält 1 Schaden (+2 Schaden wenn dein Ziel eingefroren ist)
-Bild: /Eispfeil.jpg
+Bild: /Karte13.png
 Ziel: 2
 
 ID: 14
@@ -136,7 +136,7 @@ Kartenname: Grollendes Heulen
 Range: 8
 Richtung: radial
 Effekt:Dein Gegner kann nächste Runde keine Karten ziehen.
-Bild: /Grollendes_Heulen.jpg
+Bild: /Karte14.png
 Ziel: 2
 
 ID: 15
@@ -145,7 +145,7 @@ Kartenname: Axthieb
 Range: 4
 Richtung: linear
 Effekt: Alle Gegner erhalten 2 Schaden.
-Bild: /Axthieb.jpg
+Bild: /Karte15.png
 Ziel: 2
 
 ID: 16
@@ -154,7 +154,7 @@ Kartenname:  Ausbluten
 Range: 2
 Richtung: linear
 Effekt: Dein Gegner erhält 4 Schaden (10 Schaden wenn er mehr als 15 Leben hat)
-Bild: /Ausbluten.jpg
+Bild: /Karte16.png
 Ziel: 2
 
 ID: 17
@@ -163,7 +163,7 @@ Kartenname: Elektrischer Schock
 Range: 4
 Richtung: diagonal
 Effekt: Der Gegner erhält 3 Schaden und wird 2 Runden gelähmt (20% Chance das der Effekt einer seiner Karte nicht ausgelöst wird)
-Bild: /Elektrischer_Schock.jpg
+Bild: /Karte17.png
 Ziel: 2
 
 ID: 18
@@ -172,7 +172,7 @@ Kartenname: Zauberrecycling
 Range: -
 Richtung: -
 Effekt: Wirf beliebig viele Karten ab. Du erhältst die Hälfte der Manakosten der abgeworfenen Karten als Mana (Dein maximales Mana ist dein doppeltes reguläres Mana)
-Bild: /Zauberrecycling.jpg
+Bild: /Karte18.png
 Ziel: 1
 
 ID: 19
@@ -181,7 +181,7 @@ Kartenname: Apollos
 Range: 6
 Richtung: radial
 Effekt: Du fügst dem Gegner 5 bis 12 Schaden zu.
-Bild: /Apollos.jpg
+Bild: /Karte19.png
 Ziel: 2
 
 ID: 20
@@ -190,7 +190,7 @@ Kartenname:RAGNAROEK
 Range: -
 Richtung: -
 Effekt: Dein Gegner erhält 6 Schaden und wirft 3 zufällig Karten ab.
-Bild: /RAGNAROEK.jpg
+Bild: /Karte20.png
 Ziel: 2
 
 ID: 21
@@ -199,5 +199,5 @@ Kartenname: Kriegswissenschaft
 Range: -
 Richtung: -
 Effekt: Jedes mal wenn du dem Gegner Schaden zufügst kannst du eine Karte ziehen, bis zum Ende deiner nächsten Runde.
-Bild: /Kriegswissenschaft.jpg
+Bild: /Karte21.png
 Ziel: 1
