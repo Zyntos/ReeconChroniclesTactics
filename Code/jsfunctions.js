@@ -10,6 +10,7 @@ var clicked_id = " ";
 
 var i=0;
 var f=0;
+var g1=0, g2=0, g3=0, g4=0;
 
 
 
@@ -31,47 +32,96 @@ function highlight() {
 		findPlayer();
 		playersFound=1;
 		for (f=0;f<field.length; f++) {
-			if(field[f].id==player1-(-1)+"") {
-				
-				field[f].src="highlighted.jpg";
-				
+			
+			if (f<field.length-2) 
+			{
+				g1=f+1;
+			}	
+			
+			if (f>0) 
+			{
+				g2=f-1;
 			}
-			if(field[f].id==player1-(-2)+"") {
-				
-				field[f].src="highlighted.jpg";
-				
+			
+			if (f<field.length-6)  
+			{
+				g3=f+5;
 			}
-			if(field[f].id==player1-(-10)+"") {
-				
-				field[f].src="highlighted.jpg";
-				
+			
+			if (f>5) 
+			{
+			    g4=f-5;
 			}
-			if(field[f].id==player1-(-20)+"") {
+			
+			
+			if (!(field[f].src=="file:///C:/Users/Darren/Documents/reec/Code/green.jpg"))
+			{
+				if(field[f].id==player1-(-1)+"") {
 				
-				field[f].src="highlighted.jpg";
+					field[f].src="highlighted.jpg";
 				
+				}
+				if (!(field[g2].src=="file:///C:/Users/Darren/Documents/reec/Code/green.jpg"))
+				{
+					if(field[f].id==player1-(-2)+"") {
+				
+						field[f].src="highlighted.jpg";
+					
+					}
+				}	
 			}
-			if(field[f].id==player1-1+"") {
+			
+			if (!(field[f].src=="file:///C:/Users/Darren/Documents/reec/Code/green.jpg"))
+			{
+				if(field[f].id==player1-(-10)+"") {
 				
-				field[f].src="highlighted.jpg";
+					field[f].src="highlighted.jpg";
 				
+				}
+				if (!(field[g4].src=="file:///C:/Users/Darren/Documents/reec/Code/green.jpg"))
+				{
+					if(field[f].id==player1-(-20)+"") {
+				
+						field[f].src="highlighted.jpg";
+					
+					}
+				}	
 			}
-			if(field[f].id==player1-2+"") {
+
+			if (!(field[f].src=="file:///C:/Users/Darren/Documents/reec/Code/green.jpg"))
+			{
+				if(field[f].id==player1-1+"") {
 				
-				field[f].src="highlighted.jpg";
-							
+					field[f].src="highlighted.jpg";
+				
+				}
+				if (!(field[g1].src=="file:///C:/Users/Darren/Documents/reec/Code/green.jpg"))
+				{
+					if(field[f].id==player1-2+"") {
+				
+						field[f].src="highlighted.jpg";
+					
+					}
+				}	
 			}
-			if(field[f].id==player1-10+"") {
+
+			if (!(field[f].src=="file:///C:/Users/Darren/Documents/reec/Code/green.jpg"))
+			{
+				if(field[f].id==player1-10+"") {
 				
-				field[f].src="highlighted.jpg";
+					field[f].src="highlighted.jpg";
 				
-			}
-			if(field[f].id==player1-20+"") {
+				}
+				if (!(field[g3].src=="file:///C:/Users/Darren/Documents/reec/Code/green.jpg"))
+				{
+					if(field[f].id==player1-20+"") {
 				
-				field[f].src="highlighted.jpg";
-				
-				
-			}
+						field[f].src="highlighted.jpg";
+					
+					}
+				}	
+			}		
+			
 			
 			
 				
