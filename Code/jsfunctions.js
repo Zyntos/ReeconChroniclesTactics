@@ -12,19 +12,83 @@ var i=0;
 var f=0;
 var g1=0, g2=0, g3=0, g4=0;
 
+// Constants (V2)
 
+var PHASE_DRAW = 1;
+var PHASE_MOVE = 2;
+var PHASE_MAIN = 3;
+var PHASE_END = 4;
+		
+var PLAYER_RED = 1;
+var PLAYER_BLUE = 2;
 
+// game data (V2)
+var startplayer = 0
+		
+var round = 0;
+var activePlayer = 0;
+var phase = 0;
+var phaseAction = false;
+var discardMode = false;
+		
+// player data (V2)
+var playerRed = {};
+var playerBlue = {};
 
-function movePhase() {
-	movePhase1 = 1;
-	
-	highlight();
-  
+//neuer Code - Spielmechanik
+
+function getPlayerById(id) {
+	if(id == 1) return playerRed;
+	if(id == 2) return playerBlue;
 }
 
+function getEnemy(player) {
+	if(player == playerRed) {
+	return playerBlue;
+			}
+			
+	return playerRed;
+}
 
-	
+function move(player, x, y) {
+	if(player == 1 || player == 2) player = getPlayerById(player);
+			
+	if(phase == PHASE_MOVE) {
+	var enemy = getEnemy(player);
+				
+		if(enemy["x"] != x || enemy["y"] != y) {
+			if(Math.sqrt(Math.pow(player["x"]-x,2)+Math.pow(player["y"]-y,2)) > 1.5) return;
+					
+			player["x"] = x;
+			player["y"] = y;
+					
+			setPhase(PHASE_MAIN);
+			phaseAction = false;
+		}
+	}
+}	
+//Warten auf neue HTML Version - um Feld zu sizen und dabei Figuren zu bewegen
 
+
+
+
+
+
+
+
+
+
+
+
+
+//alter Code
+
+//function movePhase() {
+//	movePhase1 = 1;
+//	
+//	highlight();
+// 
+//}
 
 function highlight() {
 	if (movePhase1==1) {
@@ -134,7 +198,7 @@ function highlight() {
 	}
 	
 }
-
+/*
 function findPlayer() {
 	
 	for (i=0; i<field.length; i++) {
@@ -186,7 +250,7 @@ function move(clicked_id) {
 	}
 	
 }	
-	
+*/ 	
 		
 		
 
