@@ -1,3 +1,9 @@
+/* Ich würde die Datenbank ja über php einbinden, inwievern das über javascript zu steuern ist weiß ich zu jetzigen nicht.
+Dazu kommt das da die Karteneffeckte noch nicht eingebunden sind und desshalb eine Datenbank noch nicht einbindbar ist.
+Im umkehrschluss heißt das ich die Datenbank zum speichern der Namen und 
+Karteneffeckte (da diese sich ja ehneln zb. bei schieße so und soviel schaden Effeckt)nutzen würde, um eine Redundanz zu vermeiden.
+*/
+
 var player = 1;
 var player1 = 0;
 var player1loc = 0;
