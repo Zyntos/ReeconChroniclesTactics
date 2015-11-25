@@ -1,0 +1,5 @@
+-Jetzt, da die Karten fertig sind sowie die Funktionen, ist es mir möglich die ganzen Platzhalter mit den Originalen zu ersetzen.
+-Eine Mouseover Funktion existiert auch beretis.
+-Das Spielfeld wird auch ersetzt. Es wird eine Weiß/Grau Schachfläche.
+-Links und Rechts sind jeweils Flächen für die Spieler, in denen die Lebenspunkte, sowie Manapunkte stehen. (Auf grauem Hintergrund)
+-Karten lassen sich per Knopfdruck ziehen oder Aktivieren. Die Bewegung läuft auch über die Schaltfläche.
