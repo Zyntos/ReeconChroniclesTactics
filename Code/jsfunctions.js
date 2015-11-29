@@ -4,6 +4,8 @@ Im umkehrschluss heißt das ich die Datenbank zum speichern der Namen und
 Karteneffeckte (da diese sich ja ehneln zb. bei schieße so und soviel schaden Effeckt)nutzen würde, um eine Redundanz zu vermeiden.
 */
 
+
+// Variablen
 var windowHeight = 0;
 var ratio = 0;
 		
@@ -18,7 +20,7 @@ var cardSelect = -1;
 		
 var previewActive = false;
 		
-// constants
+// Konstanten
 var PHASE_DRAW = 1;
 var PHASE_MOVE = 2;
 var PHASE_MAIN = 3;
@@ -29,7 +31,7 @@ var PLAYER_BLUE = 2;
 
 
 
-// list of card IDs (Temporär, bis Kartendatenbank steht, dann werden die Karten aus der Datenbank gelesen, jetzt nur zum Test der Funktionen)
+// Karten-IDs und Kartendaten (Temporär, bis Kartendatenbank steht, dann werden die Karten aus der Datenbank gelesen, jetzt nur zum Test der Funktionen)
 		var cards = ["0001","0002","0003","0004","0005","0006","0007","0008","0009","0010","0011"];
 		
 		var carddata = {
@@ -219,7 +221,7 @@ var PLAYER_BLUE = 2;
 			}
 		}
 		
-		// game data
+		// Spieldaten
 		var startplayer = 0
 		
 		var round = 0;
@@ -228,11 +230,13 @@ var PLAYER_BLUE = 2;
 		var phaseAction = false;
 		var discardMode = false;
 		
-		// player data
+		// Spielerdaten
 		var playerRed = {};
 		var playerBlue = {};
 		
-		// ----------------------------- game functions ----------------------------- \\
+		// ----------------------------- Spielfunktionen ----------------------------- \\
+		
+		//IDs der Spieler und Gegner finden - Info auslesen
 		
 		var getPlayerById = function(id) {
 			if(id == 1) return playerRed;
@@ -256,6 +260,8 @@ var PLAYER_BLUE = 2;
 			
 			return playerRed;
 		}
+		
+		// Karteneffekte
 		
 		var damagePlayer = function(player, amount) {
 			if(player["life"] <= 0 || getEnemy(player)["life"] <= 0) return;
@@ -459,6 +465,8 @@ var PLAYER_BLUE = 2;
 			return true;
 		};
 		
+		//Bewegungsfunktion
+		
 		var move = function(player, x, y) {
 			if(player == 1 || player == 2) player = getPlayerById(player);
 			
@@ -478,7 +486,7 @@ var PLAYER_BLUE = 2;
 		};
 		
 		
-		// ----------------------------- interval function ----------------------------- \\
+		// ----------------------------- Phasen ----------------------------- \\
 		
 		setInterval(function() {
 			renderPreview();
@@ -615,6 +623,8 @@ var PLAYER_BLUE = 2;
 			render();
 		};
 		
+		// Initalisierung der Spielerdaten
+		
 		var initGame = function() {
 			playerRed = {
 				"id":1,
@@ -663,7 +673,7 @@ var PLAYER_BLUE = 2;
 			}
 		};
 		
-		// ----------------------------- render functions ----------------------------- \\
+		// ----------------------------- Renderfunktionen ----------------------------- \\
 		
 		var resize = function() {
 			windowHeight = document.documentElement.clientHeight;
@@ -856,7 +866,7 @@ var PLAYER_BLUE = 2;
 			cardSelectPlayer = 0;
 		};
 		
-		// ----------------------------- on document ready ----------------------------- \\
+		// ----------------------------- Wenn Dokument geöffnet ----------------------------- \\
 		
 		var load = function() {
 			initGame();
@@ -878,7 +888,7 @@ var PLAYER_BLUE = 2;
 			}
 		};
 		
-		// ----------------------------- utility functions ----------------------------- \\
+		// ----------------------------- Utility-Funktionen ----------------------------- \\
 		
 		var clone = function(obj) {
 			var copy;

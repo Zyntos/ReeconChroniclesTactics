@@ -1,0 +1,5 @@
+Funktion steht nun bereit - Bewegung, Karten
+Der Code wurde vollständig mit einmal hochgeladen, da ich das Wochenende über am Code feilen musste,
+bis überhaupt etwas funktionierte...
+Karten sind derzeit temporär im Code eingebunden, werden aber mit Einbindung der Kartendatenbank wieder herausgenommen
+und aus der Datenbank gelesen!
