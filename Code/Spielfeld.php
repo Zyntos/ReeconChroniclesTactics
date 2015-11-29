@@ -2,6 +2,7 @@
 <html lang="de">
 	<head>
 		<script type="text/javascript">window["_gaUserPrefs"] = { ioo : function() { return true; } }</script>
+		<script src="jsfunctions.js"></script>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		<meta charset="UTF-8">
 		<title>RCT-PRG</title>
