@@ -1,5 +1,8 @@
 Funktion steht nun bereit - Bewegung, Karten
-Der Code wurde vollständig mit einmal hochgeladen, da ich das Wochenende über am Code feilen musste,
-bis überhaupt etwas funktionierte...
-Karten sind derzeit temporär im Code eingebunden, werden aber mit Einbindung der Kartendatenbank wieder herausgenommen
+Der Code wurde vollstÃ¤ndig mit einmal hochgeladen, da ich das Wochenende Ã¼ber am Code feilen musste,
+bis Ã¼berhaupt etwas funktionierte...
+Karten sind derzeit temporÃ¤r im Code eingebunden, werden aber mit Einbindung der Kartendatenbank wieder herausgenommen
 und aus der Datenbank gelesen!
+
+/toDo (optional)
+- Carddraw Phase entfernen, sodass nicht lÃ¤nger gedrÃ¼ckt werden muss, um eine Karte zu ziehen, sondern dies automatisch geschieht
