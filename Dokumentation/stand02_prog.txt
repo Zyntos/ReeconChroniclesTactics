@@ -6,3 +6,7 @@ und aus der Datenbank gelesen!
 
 /toDo (optional)
 - Carddraw Phase entfernen, sodass nicht länger gedrückt werden muss, um eine Karte zu ziehen, sondern dies automatisch geschieht
+
+=== Feedback Alpers, Dez 11 ===
+
+Gute Dokumentation, auch wenn häufigere Updates schön wären.

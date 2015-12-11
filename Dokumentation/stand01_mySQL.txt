@@ -3,3 +3,9 @@ um eine gewisse Komplexität zu gewährleisten.
 Ich werde eine MySQL Datenbank für die Kartendaten (Kartennummer, Kartenname, Kosten, Schadenswert, Effekt, Bild/er) erstellen.
 Der Nutzer wird so auf die gespeicherten Atribute der Karten zugreifen können.
 Dazu müssen die statisch festgelegten Eigenschaften langfristig und immer zugreifbar seien.
+
+=== Feedback Alpers, Dez 11 ===
+
+Gute erste Dokumentation für den Projektstart, allerdings fehlen Informationen darüber, wie die Arbeit vorangegangen ist.
+
+Die DB ist zurzeit zwar noch nicht ins Projekt eingebunden, aber ansonsten sieht das sehr gut aus.

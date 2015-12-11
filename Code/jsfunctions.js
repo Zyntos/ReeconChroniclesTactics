@@ -928,6 +928,21 @@ var PLAYER_BLUE = 2;
 			return number;
 		};
 
+/*
+=== Feedback Alpers, Dez 11 ===
+
+Das Problem mit der DB-Anbindung ist einer der Gründe, aus denen ich eher zu PHP geraten hatte.
+Bei JS müssen Sie dazu die Erweiterung node.js nutzen, was komplexer ist als die Anbindung über PHP.
+Im Falle eines Falles binden Sie sie über PHP ein.
+
+Ansonsten gefällt mir Ihr Teil ausgesprochen gut.
+
+Das folgende ist nur ein Vorschlag:
+Schauen Sie, ob Sie nicht dem HTML'er in Ihrer Gruppe ein wenig unter die Arme greifen mögen.
+Unter Umständen fehlen ihm einfach nur die Ideen, was er in HTML noch einbauen könnte.
+
+*/
+
 
 
 

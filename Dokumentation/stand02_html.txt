@@ -3,3 +3,17 @@
 -Das Spielfeld wird auch ersetzt. Es wird eine Weiß/Grau Schachfläche.
 -Links und Rechts sind jeweils Flächen für die Spieler, in denen die Lebenspunkte, sowie Manapunkte stehen. (Auf grauem Hintergrund)
 -Karten lassen sich per Knopfdruck ziehen oder Aktivieren. Die Bewegung läuft auch über die Schaltfläche.
+
+=== Feedback Alpers, Dez 11 ===
+
+Passable knappe Dokumentationen. Gut.
+
+Bezüglich des HTML-Code:
+
+Zunächst ist der recht unübersichtlich, weil der CSS-Code integriert wurde, anstatt ihn in eine eigene Datei auszulagern.
+Das sollten Sie ändern.
+Dann ist es kein HTML 5-Code, sondern 4.01. In HTML5-Dokumenten kommen <div>-Container nur noch selten vor, bei Ihnen besteht
+fast der gesamte body aus div's.
+Auch das sollten Sie ändern.
+Und schließlich entspricht das, was ich im master an html finde ungefähr einem Arbeitsaufwand von einer Stunde.
+Das ist leider deutlich zu wenig für ein Projekt.

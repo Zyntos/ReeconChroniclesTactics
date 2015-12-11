@@ -12,3 +12,7 @@ Handkarte4 = bestimmt via JavaSkript
 
 HandkartenID = 5
 Handkarte5 = bestimmt via JavaSkript
+
+=== Feedback Alpers, Dez 11 ===
+
+Worin besteht der Unterschied zu P1?
