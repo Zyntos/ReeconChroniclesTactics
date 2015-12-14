@@ -1,8 +1,11 @@
-Ich habe mich für die Datenbank entschieden da meiner Meinung nach hier eine Datenbank unerlässlich ist, 
+﻿Ich habe mich für die Datenbank entschieden da meiner Meinung nach hier eine Datenbank unerlässlich ist, 
 um eine gewisse Komplexität zu gewährleisten.
 Ich werde eine MySQL Datenbank für die Kartendaten (Kartennummer, Kartenname, Kosten, Schadenswert, Effekt, Bild/er) erstellen.
 Der Nutzer wird so auf die gespeicherten Atribute der Karten zugreifen können.
 Dazu müssen die statisch festgelegten Eigenschaften langfristig und immer zugreifbar seien.
+
+14.12.15
+es ist nun eine php-Datei vorhanden um die Datenbank auszulesen
 
 === Feedback Alpers, Dez 11 ===
 
