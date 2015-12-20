@@ -1,0 +1,8 @@
+Checkliste für den HTML Code:
+- Ein Menü für das Spiel erstellen
+  - Optionen
+  - Extras
+  - Karten
+  - Spielen
+- HTML 4 Objekte in HTML 5 Objekte verändern
+- (Wenn nötig) CSS Teile in eigene Datei einbringen
