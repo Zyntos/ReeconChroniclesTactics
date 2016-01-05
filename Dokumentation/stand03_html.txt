@@ -1,4 +1,4 @@
-Checkliste für den HTML Code:
+﻿Checkliste für den HTML Code:
 - Ein Menü für das Spiel erstellen
   - Optionen
   - Extras
@@ -6,3 +6,9 @@ Checkliste für den HTML Code:
   - Spielen
 - HTML 4 Objekte in HTML 5 Objekte verändern
 - (Wenn nötig) CSS Teile in eigene Datei einbringen
+
+=== Feedback Alpers, Jan. 05 ===
+
+Es wäre schön, wenn Sie kurz anreißen würden, warum die Änderungen durchgeführt werden bzw. werden sollen.
+
+Leider kann ich beim HTML-Teil aktuell auch keine weitergehenden Änderungen gegenüber dem Stand vom 11. Dezember erkennen.
