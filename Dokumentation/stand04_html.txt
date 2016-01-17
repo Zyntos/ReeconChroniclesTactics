@@ -1,0 +1,9 @@
+Ich habe nun ein funktionierendes Menü erstellt, in welchem man sich alle momentan vorhandenen Karten ansehen kann, sich die Geschichte 
+Reecon anschauen kann, das Spiel starten kann (also eine Verlinkung zu unserem Git Ordner) und auch das Fenster schließen kann. 
+Was man in den Optionen einbinden soll/kann bleibt mir noch ein Rätsel, jedoch hab ich den Unterpunkt bereits eingebracht.
+
+
+
+Um die Frage in dem vorherigen Feedback zu beantworten: 
+Dieses Menü wurde hinzugefügt um mehr in den Master zu pushen, sodass mein Arbeitsaufwand genügt.
+Die veränderungen in dem Spielfeld code werden vorgenommen, um die Mängel, die anfangs genannt wurden, zu korrigieren.
