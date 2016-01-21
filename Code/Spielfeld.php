@@ -1,83 +1,87 @@
 <!DOCTYPE html>
 <html lang="de">
 	<head>
+		
 		<script type="text/javascript">window["_gaUserPrefs"] = { ioo : function() { return true; } }</script>
 			
 		<!-- Einbindung der Javascript Funktionen -->	
 		<script src="jsfunctions.js"></script>
 		
-		<!-- Kann weggelassen werden!!! Zeile 13 reicht. 
-		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-		-->
 		<meta charset="UTF-8">
 		<title>RCT-PRG</title>
-		
-			<!-- Dieser CSS Teil kann in eine eigene Datei gebracht werden -->
 			
-		<style type="text/css">
+		<!-- Einbindung der CSS Daten -->
 		
-		
-		<script src="style.css"></script>
-		
-		<!-- Der CSS Teil wird jetzt über eine externe Datei eingebunden -->
-		</style>
-
-		
-		<!-- Inhalte welche mit dem CSS Code dargestellt werden -->
+		<link rel="stylesheet" href="style.css"\>
+			
 	</head>
+
+
+	<!-- Inhalte welche mit dem CSS Code dargestellt werden -->
+
+
 	<body onload="load()" onresize="resize()" onmousedown="mousedown()">
-		<section class="container">
-			<article class="playerrow" id="toprow">
+		<main class="container">
+		
+		<!-- Spieler "Oben" -->
+		
+			<section class="playerrow" id="toprow">
 				<article class="center">
-					<article class="cardwrapper middle" id="tophand">
-					</article>
-					<article class="playerstats2" id="playerstats2">
-						<article class="playericon2">
+					<header class="cardwrapper middle" id="tophand">
+					</header>
+					<figcaption class="playerstats2" id="playerstats2">
+						<figure class="playericon2">
 						
-						</article>
-						<article class="playerlife2">
+						</figure>
+						<figure class="playerlife2">
 						
-						</article>
-						<article class="playermana2">
+						</figure>
+						<figure class="playermana2">
 						
-						</article>
-						<article id="playerinfo2" class="playerinfo middle"></article>
-					</article>
+						</figure>
+						<figure id="playerinfo2" class="playerinfo middle"></figure>
+					</figcaption>
 				</article>
-			</article>
-			
-			<article class="battlefield center">
+			</section>
+		
+
+		<!-- Spielfeld -->
+		
+			<section class="battlefield center">
 				
 				<article class="field middle center" id="field">
 					</article>
 				
-				<article class="previewwrapper">
+				<figure class="previewwrapper">
 					<img class="card_preview" id="card_preview" />
 					<article class="cardaction"><br><br></article>
-				</article>
+				</figure>
 				
-			</article>
+			</section>
 			
-			<article class="playerrow" id="botrow">
+			
+		<!-- Spieler "Unten" -->
+	
+			<section class="playerrow" id="botrow">
 				<article class="center">
-					<article class="cardwrapper middle" id="bothand">
-						</article>
+					<footer class="cardwrapper middle" id="bothand">
+						</footer>
 					
-					<article class="playerstats1" id="playerstats1">
-						<article class="playermana1">
-						</article>
+					<figcaption class="playerstats1" id="playerstats1">
+						<figure class="playermana1">
+						</figure>
 
-						<article class="playerlife1">						
-						</article>
+						<figure class="playerlife1">						
+						</figure>
 						
-						<article class="playericon1">						
-						</article>
+						<figure class="playericon1">						
+						</figure>
 						
-						<article id="playerinfo1" class="playerinfo middle">
-						</article>
-					</article>
+						<figure id="playerinfo1" class="playerinfo middle">
+						</figure>
+					</figcaption>
 				</article>
-			</article>
-		</section>
+			</section>
+		</main>
 	</body>
 </html>
