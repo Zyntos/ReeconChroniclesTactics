@@ -1,0 +1,11 @@
+Geschafft
+
+-So weit sollten alle HTML4 Elemente entfernt sein. 
+-Ein funktionierendes Menü wurde hinzugefügt
+-CSS Daten jeweils in eine externe Datei gepackt
+
+
+Noch möglich zu ändern:
+
+-Man könnte die einzelnen CSS Daten in eine Datei zusammenfassen
+-Ansonsten könnte man das Menü vielleicht noch eleganter gestalten
