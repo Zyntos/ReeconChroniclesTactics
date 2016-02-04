@@ -7,3 +7,15 @@ Was man in den Optionen einbinden soll/kann bleibt mir noch ein Rätsel, jedoch 
 Um die Frage in dem vorherigen Feedback zu beantworten: 
 Dieses Menü wurde hinzugefügt um mehr in den Master zu pushen, sodass mein Arbeitsaufwand genügt.
 Die veränderungen in dem Spielfeld code werden vorgenommen, um die Mängel, die anfangs genannt wurden, zu korrigieren.
+
+=== Feedback Alpers, feb. 4 ===
+
+1) Wenn Sie nicht wissen, was Sie in die Optionen einbinden sollen, warum haben Sie die aufgenommen?
+
+2) Bezüglich des Arbeitsaufwands: Für das Projekt sollen Sie einen Arbeitsaufwand erbringen, der lt. Modulhandbuch rund 80 Stunden entspricht. Was ich zurzeit sehe sind drei HTML-Dokumente, deren Header und Navigation nahezu identisch sind. Der einzige Unterschied besteht darin, dass
+- im einen vier Zeilen Text und ein Bild eingebunden sind,
+- im nächsten ein knappes Dutzend Bilder unsortiert angezeigt werden und
+- im letzten drei Zeilen Text eingebunden sind.
+Um den Code übersichtlicher zu machen, sollten Sie die identischen Teile jeweils in eine eigene PHP-Datei auslagern, die dann per include() in das HTML-Dokument integriert wird. Leider beinhaltet keine der drei Seiten eine echte Interaktionsmöglichkeit, sondern es handelt sich im Kern nur um kurze Textseiten.
+
+3) Dann gibt es noch ein HTML-Dokument (Spielfeld.php), das tatsächlich in die Richtung geht, die Sie als HTML'er der Gruppe umsetzen sollten: Entwicklung einer Struktur der Anwendung. Sie haben dabei tatsächlich HTML5 eingesetzt, auch wenn Sie die Container unsinnig ineinander verpackt haben. Im Grunde wären da noch einige Arbeiten nötig, aber da Sie sich hier zumindest in Teilen auf die Aufgabe konzentriert haben, die Sie umsetzen sollten und an der Beseitigung von Mängeln gearbeitet haben, werde ich Ihren Anteil am Projekt als ausreichend für den Leistungsnachweis werten.

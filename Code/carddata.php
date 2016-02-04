@@ -29,6 +29,12 @@ function carddata($echo=false) {
 		
 		$effects = mysql_query("SELECT * FROM card INNER JOIN cardeffect ON card.ID = cardID INNER JOIN effect ON effect.ID = effectID WHERE card.ID = ".$line['ID']);
 		
+		/*
+		* === Feedback Alpers, Jan. 5 ===
+		*
+		* Schön effizienter Code fürs Einlesen der Datensätze.
+		*/
+		
 		$i = 0;
 		
 		$data .= ',"effect":{';

@@ -9,3 +9,9 @@ Noch möglich zu ändern:
 
 -Man könnte die einzelnen CSS Daten in eine Datei zusammenfassen
 -Ansonsten könnte man das Menü vielleicht noch eleganter gestalten
+
+=== Feedback Alpers, feb. 4 ===
+
+Siehe Kommentare zu stand04.
+
+Auch wenn ich es in der Veranstaltung ja mehrfach sagte, hier nochmal der Hinweis: Das Design ist nicht Ihre Aufgabe und geht auch nicht in die Wertung zum Projekt ein. Bei Ihrem Teil geht es ausschließlich darum, die Struktur der Webanwendung zu programmieren.

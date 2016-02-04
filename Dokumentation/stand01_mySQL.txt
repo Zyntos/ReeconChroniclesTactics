@@ -12,3 +12,10 @@ es ist nun eine php-Datei vorhanden um die Datenbank auszulesen
 Gute erste Dokumentation für den Projektstart, allerdings fehlen Informationen darüber, wie die Arbeit vorangegangen ist.
 
 Die DB ist zurzeit zwar noch nicht ins Projekt eingebunden, aber ansonsten sieht das sehr gut aus.
+
+=== Feedback Alpers, Jan 05 ===
+
+Bitte erstellen Sie wie in meiner damaligen Mail beschrieben für die kontinuierliche Dokumentation jeweils eine eigene Datei.
+
+Bitte beachten Sie, dass Sie momentan zwar die in der Datenbank gespeicherten Karten ins Spiel integrieren, die DB aber im Grunde überflüssig ist.
+Überlegen Sie sich bitte noch ein paar Fälle, bei denen Sie die Datenbank nutzen können, um Daten (z.B. von einzelnen Spielen oder für eine Highscore-Liste) zu speichern und setzen Sie die bitte um.
